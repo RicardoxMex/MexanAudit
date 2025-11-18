@@ -171,7 +171,7 @@ export default function Dashboard({ stats, recent_audits = [], upcoming_audits =
                 )}
 
                 {/* Two Column Layout */}
-                <div className="grid gap-6 md:grid-cols-2">
+                <div className="grid gap-6 grid-cols-2">
                     {/* Recent Audits */}
                     <Card>
                         <CardHeader>

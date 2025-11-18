@@ -14,7 +14,9 @@ export default function AppSidebarLayout({
             <AppSidebar />
             <AppContent variant="sidebar" className="overflow-x-hidden">
                 <AppSidebarHeader breadcrumbs={breadcrumbs} />
-                {children}
+                <div className='mx-auto p-4 max-w-6xl w-full'>
+                    {children}
+                </div>
             </AppContent>
         </AppShell>
     );
